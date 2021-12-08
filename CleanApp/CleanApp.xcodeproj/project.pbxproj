@@ -18,6 +18,7 @@
 		F8DE8A672760DD39002DA587 /* HttpPostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE8A662760DD39002DA587 /* HttpPostClient.swift */; };
 		F8DE8A6F2760E1B4002DA587 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE8A6E2760E1B4002DA587 /* DomainError.swift */; };
 		F8DE8A712760E63B002DA587 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE8A702760E63B002DA587 /* HttpError.swift */; };
+		F8DE8A7427613BC8002DA587 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DE8A7327613BC8002DA587 /* ExtensionHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F8DE8A662760DD39002DA587 /* HttpPostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpPostClient.swift; sourceTree = "<group>"; };
 		F8DE8A6E2760E1B4002DA587 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
 		F8DE8A702760E63B002DA587 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		F8DE8A7327613BC8002DA587 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		F8DE8A48275EE502002DA587 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F8DE8A7227613BB5002DA587 /* Helpers */,
 				F8DE8A6A2760DDE4002DA587 /* UseCases */,
 				F8DE8A6B2760DDED002DA587 /* Http */,
 			);
@@ -195,6 +198,14 @@
 				F8DE8A6E2760E1B4002DA587 /* DomainError.swift */,
 			);
 			path = Errors;
+			sourceTree = "<group>";
+		};
+		F8DE8A7227613BB5002DA587 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F8DE8A7327613BC8002DA587 /* ExtensionHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8DE8A672760DD39002DA587 /* HttpPostClient.swift in Sources */,
+				F8DE8A7427613BC8002DA587 /* ExtensionHelpers.swift in Sources */,
 				F8DE8A712760E63B002DA587 /* HttpError.swift in Sources */,
 				F8DE8A652760DCE2002DA587 /* RemoteAddAccount.swift in Sources */,
 			);
